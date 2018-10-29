@@ -7,6 +7,7 @@ import { LugarTutisticoComponent } from './lugar-tutistico/lugar-tutistico.compo
 import { CronogramaComponent } from './cronograma/cronograma.component';
 import { PaqueteTuristicoComponent } from './paquete-turistico/paquete-turistico.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HeaderComponent } from './header/header.component';
     LugarTutisticoComponent,
     CronogramaComponent,
     PaqueteTuristicoComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
