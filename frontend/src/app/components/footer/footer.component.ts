@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  public author:any= {nombre:'UMSS',apellido:'Ing. Software'}
   constructor() { }
 
-  public author:any= {nombre:'UMSS',apellido:'Ing. Software'}
   ngOnInit() {
   }
 
