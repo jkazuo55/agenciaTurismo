@@ -6,6 +6,7 @@ import { CatetoriaComponent } from './catetoria/catetoria.component';
 import { LugarTutisticoComponent } from './lugar-tutistico/lugar-tutistico.component';
 import { CronogramaComponent } from './cronograma/cronograma.component';
 import { PaqueteTuristicoComponent } from './paquete-turistico/paquete-turistico.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { PaqueteTuristicoComponent } from './paquete-turistico/paquete-turistico
     CatetoriaComponent,
     LugarTutisticoComponent,
     CronogramaComponent,
-    PaqueteTuristicoComponent
+    PaqueteTuristicoComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule
